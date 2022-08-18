@@ -20,7 +20,7 @@
       yellow: ["piña", "banana"],
       purple: ["moras", "uvas"],
     };
-    if (!Object.keys(fruitsByColor).includes)
+    if (!Object.keys(fruitsByColor).includes(color))
       throw Error("the color must be: red, yellow, purple");
     return fruitsByColor[color];
     /*     if (color === "red") {
